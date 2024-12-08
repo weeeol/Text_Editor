@@ -6,7 +6,7 @@ def toggle_formatting(editor, tag_name):
         else:
             editor.main_text_widget.tag_add(tag_name, "sel.first", "sel.last")
     except Exception:
-        pass  # No text selected; do nothing
+        pass  
 
 def toggle_bold(editor):
     toggle_formatting(editor, "bold")
