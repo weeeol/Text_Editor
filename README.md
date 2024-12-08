@@ -3,31 +3,26 @@ TO RUN THE PROGARM USE MAIN.PY
 1. Core Features
 
 New File: Creates a new empty document.Clears any existing content in the current document.
-Save: Saves the current document to a file.
-Allows the user to specify the file name and location.
+Save: Saves the current document to a file. Allows the user to specify the file name and location.
 Undo: Reverts the last editing action performed. Supports multiple undo levels.
 Redo: Reverses the last undo action. Supports multiple redo levels.
+
 2. Editing Options
 
-Bold:
-Applies bold formatting to the selected text.
-Italic:
-Applies italic formatting to the selected text.
+Bold: Applies bold formatting to the selected text.
+Italic: Applies italic formatting to the selected text.
+
 3. Appearance
 
-Dark Mode:
-Switches the application's color scheme to a dark theme.
-Improves readability in low-light environments.
+Dark Mode: Switches the application's color scheme to a dark theme. Improves readability in low-light environments.
+
 4. User Interface (UI)
 
-Intuitive Design:
-Easy-to-navigate interface with clearly labeled buttons and menus.
-Text Area:
-Main area for text input and editing.
-Menu Bar:
-Contains options for file operations (New, Save), editing (Undo, Redo), formatting (Bold, Italic), and appearance (Dark Mode).
-Toolbar:
-Provides quick access to frequently used functions (New, Save, Undo, Redo, Bold, Italic).
+Intuitive Design:Easy-to-navigate interface with clearly labeled buttons and menus.
+Text Area:Main area for text input and editing.
+Menu Bar:Contains options for file operations (New, Save), editing (Undo, Redo), formatting (Bold, Italic), and appearance (Dark Mode).
+Toolbar:Provides quick access to frequently used functions (New, Save, Undo, Redo, Bold, Italic).
+
 5. Usage
 
 Create a New File:

@@ -93,9 +93,6 @@ class TextEditor:
         messagebox.showinfo("About", "Text Editor\n\nCreated by Veol Steve")
 
     def update_row_numbers(self):
-        """
-        Updates the line numbers in the row number widget.
-        """
         self.row_numbers_widget.config(state="normal")
         self.row_numbers_widget.delete(1.0, "end")
 

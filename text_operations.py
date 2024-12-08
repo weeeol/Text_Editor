@@ -20,9 +20,6 @@ def configure_text_operations(frame, editor):
     return row_numbers_widget, main_text_widget, text_scrollbar
 
 def sync_scroll(editor, *args):
-    """
-    Synchronizes the scrolling of the main text widget and the row numbers widget.
-    """
     editor.row_numbers_widget.yview_moveto(args[0])
     editor.main_text_widget.yview_moveto(args[0])
     editor.update_row_numbers()  # Use the method from the TextEditor class

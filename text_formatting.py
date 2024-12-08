@@ -1,7 +1,4 @@
 def toggle_formatting(editor, tag_name):
-    """
-    Toggles a formatting style (bold, italic, or underline) for the selected text.
-    """
     try:
         current_tags = editor.main_text_widget.tag_names("sel.first")
         if tag_name in current_tags:
