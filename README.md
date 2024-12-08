@@ -1,4 +1,5 @@
 # Text_Editor
+TO RUN THE PROGARM USE MAIN.PY
 1. Core Features
 
 New File: Creates a new empty document.Clears any existing content in the current document.
