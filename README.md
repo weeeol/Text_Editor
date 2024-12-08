@@ -1,18 +1,11 @@
 # Text_Editor
 1. Core Features
 
-New File:
-Creates a new empty document.
-Clears any existing content in the current document.
-Save:
-Saves the current document to a file.
+New File: Creates a new empty document.Clears any existing content in the current document.
+Save: Saves the current document to a file.
 Allows the user to specify the file name and location.
-Undo:
-Reverts the last editing action performed.
-Supports multiple undo levels.
-Redo:
-Reverses the last undo action.
-Supports multiple redo levels.
+Undo: Reverts the last editing action performed. Supports multiple undo levels.
+Redo: Reverses the last undo action. Supports multiple redo levels.
 2. Editing Options
 
 Bold:
