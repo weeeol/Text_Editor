@@ -15,13 +15,6 @@ class TextEditor:
         self.root.title("Text Editor")
         self.file_path = None
 
-        # dark mode attributes
-        self.is_dark_mode = False
-        self.light_bg = "white"
-        self.light_fg = "black"
-        self.dark_bg = "#2e2e2e"
-        self.dark_fg = "#f8f8f2"
-
         # Theme attributes
         self.is_dark_mode = False
         self.light_bg = "white"
