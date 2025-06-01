@@ -31,29 +31,32 @@ Click on the "New" button in the toolbar or select "File" -> "New" from the menu
 Type or Paste Text:
 
 Enter or paste text into the text area.
-Edit Text:
 
+Edit Text:
 Use the mouse or keyboard to select text.
 Apply formatting (Bold, Italic) using the toolbar or menu options.
-Save the File:
 
+Save the File:
 Click on the "Save" button or select "File" -> "Save" from the menu.
 Choose a file name and location.
+
 Undo/Redo:
-
 Use the "Undo" and "Redo" buttons or menu options to revert or reapply recent changes.
-Toggle Dark Mode:
 
+Toggle Dark Mode:
 Click on the "Dark Mode" button or select "Appearance" -> "Dark Mode" from the menu.
 
 6. Technical Considerations
 
 Programming Language:
 Choose a suitable language like Python, JavaScript, or C# for development.
+
 Text Editor Library:
 Consider using a dedicated text editor library for efficient text handling.
+
 User Interface Toolkit:
 Select a UI toolkit (e.g., Tkinter for Python, React for JavaScript) to create the user interface.
+
 File Handling:
 Implement proper file I/O operations for saving and loading documents.
 
@@ -61,12 +64,16 @@ Implement proper file I/O operations for saving and loading documents.
 
 Find and Replace:
 Add features to search for and replace text within the document.
+
 Spell Check:
 Integrate spell-checking functionality to help users identify and correct errors.
+
 Syntax Highlighting:
 Support syntax highlighting for different programming languages.
+
 Multiple Tabs:
 Allow users to open and work with multiple documents simultaneously.
+
 Print Support:
 Enable printing of the current document.
 This documentation provides a basic overview of the text editor. Further details and specifications will be added as development progresses.
