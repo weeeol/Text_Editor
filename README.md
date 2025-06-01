@@ -45,6 +45,7 @@ Use the "Undo" and "Redo" buttons or menu options to revert or reapply recent ch
 Toggle Dark Mode:
 
 Click on the "Dark Mode" button or select "Appearance" -> "Dark Mode" from the menu.
+
 6. Technical Considerations
 
 Programming Language:
@@ -55,6 +56,7 @@ User Interface Toolkit:
 Select a UI toolkit (e.g., Tkinter for Python, React for JavaScript) to create the user interface.
 File Handling:
 Implement proper file I/O operations for saving and loading documents.
+
 7. Future Enhancements
 
 Find and Replace:
