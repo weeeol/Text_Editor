@@ -42,7 +42,7 @@ class TextEditor:
         configure_event_bindings(root, self)
 
         # Initial row numbers
-        update_row_numbers(self)
+        self.update_row_numbers()
 
     # File Operations
     def new_file(self):
@@ -104,16 +104,6 @@ class TextEditor:
         
     def toggle_dark_mode(self):
         if self.is_dark_mode:
-            self.apply_light_mode()
+            apply_light_mode(self)
         else:
-            self.apply_dark_mode()
-
-    def apply_light_mode(self):
-        self.is_dark_mode = False
-        self.main_text_widget.config(bg=self.light_bg, fg=self.light_fg, insertbackground=self.light_fg)
-        self.row_numbers_widget.config(bg=self.light_bg, fg=self.light_fg)
-
-    def apply_dark_mode(self):
-        self.is_dark_mode = True
-        self.main_text_widget.config(bg=self.dark_bg, fg=self.dark_fg, insertbackground=self.dark_fg)
-        self.row_numbers_widget.config(bg=self.dark_bg, fg=self.dark_fg)
+            apply_dark_mode(self)

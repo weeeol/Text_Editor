@@ -22,4 +22,5 @@ def configure_text_operations(frame, editor):
 def sync_scroll(editor, *args):
     editor.row_numbers_widget.yview_moveto(args[0])
     editor.main_text_widget.yview_moveto(args[0])
-    editor.update_row_numbers()
+    # No need to recalculate row numbers on every scroll (expensive);
+    # row numbers content changes only when text changes.
