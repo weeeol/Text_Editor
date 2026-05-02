@@ -1,5 +1,6 @@
-from PySide6.QtGui import QSyntaxHighlighter, QTextCharFormat, QColor, QFont
 from PySide6.QtCore import QRegularExpression
+from PySide6.QtGui import QColor, QFont, QSyntaxHighlighter, QTextCharFormat
+
 
 class SimplePythonHighlighter(QSyntaxHighlighter):
     def __init__(self, parent):
@@ -30,8 +31,5 @@ class SimplePythonHighlighter(QSyntaxHighlighter):
         for pattern, fmt in self._highlighting_rules:
             it = pattern.globalMatch(text)
             while it.hasNext():
-                m = it.next()
-                start = m.capturedStart()
-                length = m.capturedLength()
-                self.setFormat(start, length, fmt)
-*** End Patch
+                match = it.next()
+                self.setFormat(match.capturedStart(), match.capturedLength(), fmt)
