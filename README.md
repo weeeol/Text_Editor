@@ -9,8 +9,14 @@ python main.py
 To build a Windows executable (requires PyInstaller):
 
 ```powershell
-./build.ps1
+./scripts/build.ps1
 ```
+
+Project layout:
+
+- `app/` contains the structured PySide launcher package.
+- `scripts/` contains build and helper scripts.
+- `pyside_ui.py` remains as the implementation for compatibility during the transition.
 
 A simple, lightweight text editor written in Python.
 

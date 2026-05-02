@@ -30,7 +30,7 @@ def _try_relaunch_with_venv() -> bool:
 
 
 try:
-    from pyside_ui import PYSIDE_AVAILABLE, run_pyside_app
+    from app.ui import PYSIDE_AVAILABLE, run_pyside_app
 except Exception:
     PYSIDE_AVAILABLE = False
 
