@@ -1,0 +1,5 @@
+QMainWindow { background: #1e1e1e; color: #dcdcdc; }
+QTextEdit { background: #1e1e1e; color: #dcdcdc; }
+QPlainTextEdit { background: #1e1e1e; color: #dcdcdc; }
+QMenuBar { background: #2b2b2b; color: #dcdcdc; }
+QToolBar { background: #2b2b2b; }

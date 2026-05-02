@@ -1,5 +1,17 @@
 # Text Editor
 
+PySide6 prototype added. To run the improved UI (preferred):
+
+```bash
+python main.py
+```
+
+To build a Windows executable (requires PyInstaller):
+
+```powershell
+./build.ps1
+```
+
 A simple, lightweight text editor written in Python.
 
 Prerequisites
