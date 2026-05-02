@@ -1,95 +1,50 @@
-# Text_Editor
-TO RUN THE PROGARM USE MAIN.PY
-1. Core Features
+# Text Editor
 
-New File:
-Creates a new empty document.Clears any existing content in the current document.
+A simple, lightweight text editor written in Python.
 
-Save: 
-Saves the current document to a file. Allows the user to specify the file name and location.
+Prerequisites
 
-Undo: 
-Reverts the last editing action performed. Supports multiple undo levels.
+- Python 3.8 or newer
 
-Redo: 
-Reverses the last undo action. Supports multiple redo levels.
+Quick start
 
-2. Editing Options
+1. Open a terminal in the project root.
+2. Run:
 
-Bold: 
-Applies bold formatting to the selected text.
+   python main.py
 
-Italic: 
-Applies italic formatting to the selected text.
+Features
 
-3. Appearance
+- New file: create a blank document.
+- Save/Open: save the current document to disk and open existing files.
+- Undo/Redo: multiple levels of undo and redo.
+- Formatting: bold and italic text styling.
+- Appearance: toggle light/dark themes.
 
-Dark Mode: 
-Switches the application's color scheme to a dark theme. Improves readability in low-light environments.
+Usage
 
-4. User Interface (UI)
+- Create a new file from the File menu or the toolbar.
+- Type or paste text into the main editing area.
+- Use the toolbar or Edit menu to apply formatting and to undo/redo changes.
+- Save via the File menu or the toolbar; choose a file name and location when prompted.
+- Toggle dark mode from the Appearance menu.
 
-Intuitive Design:Easy-to-navigate interface with clearly labeled buttons and menus.
+Developer notes
 
-Text Area:
-Main area for text input and editing.
+- Main entry: `main.py`
+- Core modules: `text_editor.py`, `text_operations.py`, `text_formatting.py`, `file_operations.py`
+- Run locally with `python main.py`. No external dependencies required for the basic editor.
 
-Menu Bar:
-Contains options for file operations (New, Save), editing (Undo, Redo), formatting (Bold, Italic), and appearance (Dark Mode).
+Roadmap / Future enhancements
 
-Toolbar:
-Provides quick access to frequently used functions (New, Save, Undo, Redo, Bold, Italic).
+- Find & replace
+- Spell check
+- Syntax highlighting for code
+- Multiple document tabs
+- Print support
 
-5. Usage
+Contributing
+Contributions are welcome — open an issue or submit a pull request.
 
-Create a New File:
-Click on the "New" button in the toolbar or select "File" -> "New" from the menu.
-
-Type or Paste Text:
-Enter or paste text into the text area.
-
-Edit Text:
-Use the mouse or keyboard to select text.
-Apply formatting (Bold, Italic) using the toolbar or menu options.
-
-Save the File:
-Click on the "Save" button or select "File" -> "Save" from the menu.
-Choose a file name and location.
-
-Undo/Redo:
-Use the "Undo" and "Redo" buttons or menu options to revert or reapply recent changes.
-
-Toggle Dark Mode:
-Click on the "Dark Mode" button or select "Appearance" -> "Dark Mode" from the menu.
-
-6. Technical Considerations
-
-Programming Language:
-Choose a suitable language like Python, JavaScript, or C# for development.
-
-Text Editor Library:
-Consider using a dedicated text editor library for efficient text handling.
-
-User Interface Toolkit:
-Select a UI toolkit (e.g., Tkinter for Python, React for JavaScript) to create the user interface.
-
-File Handling:
-Implement proper file I/O operations for saving and loading documents.
-
-7. Future Enhancements
-
-Find and Replace:
-Add features to search for and replace text within the document.
-
-Spell Check:
-Integrate spell-checking functionality to help users identify and correct errors.
-
-Syntax Highlighting:
-Support syntax highlighting for different programming languages.
-
-Multiple Tabs:
-Allow users to open and work with multiple documents simultaneously.
-
-Print Support:
-Enable printing of the current document.
-This documentation provides a basic overview of the text editor. Further details and specifications will be added as development progresses.
+License
+This project is provided under the MIT License.
